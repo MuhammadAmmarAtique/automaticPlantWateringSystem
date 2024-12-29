@@ -1,6 +1,8 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import {SoilData} from "./model/soilData.model.js"
+import { SoilData } from "./model/soilData.model.js"
+import { dbConnection } from "./db/dbConnection.js"
+dbConnection()
 
 const app = express();
 app.use(bodyParser.json());
