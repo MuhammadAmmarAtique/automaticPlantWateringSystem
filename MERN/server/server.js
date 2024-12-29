@@ -1,12 +1,16 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import {SoilData} from "./model/soilData.model.js"
 
 const app = express();
 app.use(bodyParser.json());
 
-app.post('/soil-data', (req, res) => {
+app.post('/soil-data', async (req, res) => {
     const { moistureValue } = req.body;
     console.log('Received Moisture Value:', moistureValue);
+    //saving moisture value in database
+    const data = new SoilData({ moistureValue });
+    await data.save();
     res.status(200).send('Data Received');
 });
 
