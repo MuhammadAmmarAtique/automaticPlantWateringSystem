@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import cors from "cors";
 import { SoilData } from "./model/soilData.model.js"
 import { dbConnection } from "./db/dbConnection.js"
 dbConnection()
