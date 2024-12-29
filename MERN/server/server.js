@@ -6,6 +6,7 @@ dbConnection()
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 app.post('/soil-data', async (req, res) => {
     const { moistureValue } = req.body;
