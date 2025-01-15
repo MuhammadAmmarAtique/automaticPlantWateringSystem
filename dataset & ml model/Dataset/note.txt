@@ -1,0 +1,4 @@
+Its is Dataset for Predicting watering the plants.
+
+its downloaded from below link:-
+https://www.kaggle.com/datasets/nelakurthisudheer/dataset-for-predicting-watering-the-plants
