@@ -1,7 +1,3 @@
-Here's your updated GitHub README incorporating the new **Dataset & ML Model** directory and explaining how the machine learning model enhances your IoT-based plant watering system.  
-
----
-
 # Automatic Plant Watering System (IoT-Based)
 
 ## Project Overview
@@ -170,5 +166,3 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 Feel free to open an issue or submit a pull request! Contributions are welcome. 
 
 ---
-
-Let me know if you'd like any modifications or improvements! 🚀
